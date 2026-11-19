@@ -15,7 +15,7 @@
 | 物理键盘按键或机械按钮 | **按**（press，如“按 `Enter` 键”） | 敲击（hit）、点击 `Enter` 键 |
 | 鼠标悬停等待反应 | **将指针悬停在……上**（hold the pointer over） | 悬停（hover，口语中若用“悬停”需指明对象：“将鼠标悬停在**设置**上”） |
 | 拖拽操作 | **拖动**（drag）；作定语用**拖放式**（drag-and-drop） | 点击并拖动 |
-| 填写表单 vs. 填写单个字段 | **填写**表单（fill out）；在字段中**输入**（enter） | — |
+| 填写表单 vs. 填写单个字段 | **填写**表单（fill out）；在字段中**输入**（enter） | 无 |
 | 开关（Toggle）控件 | **开启 / 关闭**（turn on / turn off）或点击 **XX** **开关** | 不要把“切换（toggle）”当及物动词直接接功能名 |
 
 ## 二、常见禁用词与规范替换总表
@@ -46,11 +46,11 @@
 | `下拉（drop-down，单独作名词）` | **下拉列表 / 下拉菜单**（操作步骤中通常直接写“在**区域**列表中选择……”） |
 | `勾上 / 取消勾选` | **选中 / 清除**（复选框） |
 | `解压（写成 unzip / untar 动词混排）` | **解压** ZIP 文件 / **提取** tar 归档文件 |
-| `2.2+` / `2.2 及更高版本` | **2.2 及更高版本**或 **2.2 及之后的版本**（避免在正文中写 `2.2+` 符号） |
+| `2.2+` | **2.2 及更高版本**或 **2.2 及之后的版本**（避免在正文中写 `2.2+` 符号） |
 | `10x`（在散文句子中） | **10 倍**（如“吞吐量提升 10 倍”） |
-| `foo` / `bar` / `baz` | 使用有实际业务意义的占位符名称（如 `EXAMPLE_BUCKET`、` item_count`） |
+| `foo` / `bar` / `baz` | 使用有实际业务意义的占位符名称（如 `EXAMPLE_BUCKET`、`item_count`） |
 | `点击这里 / 此文档 / 这篇博客`（作链接文本） | 使用**目标页面的具体标题**作为链接文本 |
-| `如上图 / 下图 / 左边 / 右侧所示` | **如前文所示 / 如下图所示（仅限紧邻下方时）/ 如图 1 所示** |
+| `如上图 / 下图 / 左图 / 右侧所示` | **如前文所示 / 参见以下示意图 / 如图 1 所示** |
 
 ## 三、中文技术文档中的高频英文词汇拼写与混排准则
 
@@ -69,7 +69,7 @@
 - **分开写为两个词**：`data center`、`data source`、`data type`、`file system`、`key ring`、`name server`、`web server`。
 - **加连字符（Hyphenated）**：`on-premises`（绝不写 `on-premise`）、`read-only`、`long-running`、`error-prone`、`key-value`、`big-endian`、`little-endian`、`non-negative`、`non-integer`、`multi-cluster`、`multi-region`、`third-party`（作定语时；作名词时为 `third party`，绝不写 `3rd party`）。
 - **动词短语（两词）vs. 名词/形容词（一词或连字符）**：
-  - 登录：动词用 `sign in` / `log in`（中文写“登录”，注意是“登录”不是“登陆”！）；名词/形容词用 `sign-in` / `login`。
+  - 登录：动词用 `sign in` / `log in`（中文写“登录”，注意不是“登陆”）；名词/形容词用 `sign-in` / `login`。
   - 配置/安装：动词用 `set up`，名词/形容词用 `setup`。
   - 启动：动词用 `start up`，名词用 `startup`。
   - 故障转移：动词用 `fail over`，名词用 `failover`。
