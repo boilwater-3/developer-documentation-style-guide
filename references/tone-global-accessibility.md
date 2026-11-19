@@ -69,7 +69,7 @@
 |---|---|---|
 | `白名单 / 黑名单`（`whitelist / blacklist`） | `允许列表 / 拒绝列表`（或 `阻止列表 / 信任列表`，`allowlist / denylist`） | 语义更直观自明，消除色彩偏见。 |
 | `主从`（`master / slave`） | `主节点 / 副本节点`（`primary / replica`）、`控制节点 / 工作节点`（`controller / worker`）或 `主备` | 架构角色描述更准确。 |
-| `中间人攻击`（`man-in-the-middle`） | `在途攻击 / 路径劫持攻击`（`on-path attacker`）或 `中间方攻击` | 更准确地反映网络路径机制。 |
+| `中间人攻击`（`man-in-the-middle`） | `路径劫持攻击 / 在途攻击`（`on-path attacker`）或 `中间方攻击` | 遵循国际包容性规范时推荐替换并首次括注原词；通用中文安全文档中“中间人攻击（MITM）”仍属行业通行术语，可按团队约定保留。 |
 | `健全性检查 / 傻瓜式检查`（`sanity check`） | `快速检查 / 完整性检查 / 置信度检查`（`quick check / confidence check`） | 避免使用带有精神/智力评判色彩的词汇。 |
 | `哑变量 / 傻瓜值`（`dummy value`） | `占位符 / 示例值 / 测试值`（`placeholder / sample value`） | 表意更清晰专业。 |
 | `人天 / 人月` 中的性别词（`man-hours`） | `工时 / 人时 / 人天`（`person-hours`） | 保持性别中立。 |

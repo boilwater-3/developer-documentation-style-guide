@@ -8,8 +8,8 @@
 |---|---|---|
 | 桌面端鼠标左键操作 | **点击**（click） | 单击、点选、点击在……上（click on）、敲击（hit） |
 | 桌面端鼠标右键 / 双击 | **右键点击**、**双击** | 右击、双点 |
-| 移动端触摸屏操作 | **点按**（tap）、**按住**（touch & hold） | 点击、长按（long press，Android 规范优先用“按住”） |
-| 复选框（Checkbox）操作 | **选中**（select）/ **清除**（clear） | 勾选、打勾、取消勾选（check / uncheck） |
+| 移动端触摸屏操作 | **点按**（tap）、**长按**（遵循 Android 官方中文规范时可用**按住**） | 点击（用于触屏） |
+| 复选框（Checkbox）操作 | **选中 / 取消选中**（或全文统一用**勾选 / 取消勾选**） | 勾上、打勾、把勾去掉 |
 | 下拉菜单、单选按钮或列表项 | **选择**（select / choose） | 挑选、点选 |
 | 在文本框中填写内容 | **输入**（enter，优先）/ **键入**（type） | 填入、打字、敲入 |
 | 物理键盘按键或机械按钮 | **按**（press，如“按 `Enter` 键”） | 敲击（hit）、点击 `Enter` 键 |
@@ -36,7 +36,7 @@
 | `通过……的方式（via / by using）` | **使用…… / 通过……** |
 | `白名单 / 黑名单 / 灰名单` | **允许列表 / 拒绝列表（或阻止列表）/ 观察列表**（代码字面量用 `` `whitelist` ``） |
 | `主从（master / slave）` | **主节点 / 副本节点（primary / replica）**、**控制节点 / 工作节点** |
-| `中间人攻击（man-in-the-middle）` | **在途攻击 / 路径劫持攻击（on-path attacker）** |
+| `中间人攻击（man-in-the-middle）` | 遵循国际包容性规范时用**路径劫持攻击 / 在途攻击（on-path attacker）**；通用中文安全文档可按约定保留“中间人攻击（MITM）” |
 | `健全性检查（sanity check）` | **快速检查 / 完整性检查 / 置信度检查** |
 | `哑变量 / 傻瓜值（dummy variable / value）` | **占位符 / 示例值 / 测试值**（统计学中称“虚拟变量/指示变量”） |
 | `卡死 / 挂起（hang / hung）` | **停止响应 / 未响应** |
@@ -44,7 +44,7 @@
 | `汉堡菜单 / 三道杠图标 / 三个点图标` | 直接写元素的无障碍标签名：**菜单**、**更多操作** |
 | `弹窗（pop-up / popup）` | **对话框**（dialog）或**菜单**（menu） |
 | `下拉（drop-down，单独作名词）` | **下拉列表 / 下拉菜单**（操作步骤中通常直接写“在**区域**列表中选择……”） |
-| `勾上 / 取消勾选` | **选中 / 清除**（复选框） |
+| `勾上 / 把勾去掉` | **选中 / 取消选中**（或全文统一用**勾选 / 取消勾选**） |
 | `解压（写成 unzip / untar 动词混排）` | **解压** ZIP 文件 / **提取** tar 归档文件 |
 | `2.2+` | **2.2 及更高版本**或 **2.2 及之后的版本**（避免在正文中写 `2.2+` 符号） |
 | `10x`（在散文句子中） | **10 倍**（如“吞吐量提升 10 倍”） |
@@ -57,7 +57,7 @@
 在中文技术文档中保留英文专业词汇或代码术语时，必须严格遵守其官方拼写、大小写与连字符规范：
 
 ### 1. 官方大小写易错词（切勿写错大小写）
-- **云与基础设施**：`Google Cloud`（不要写 `GCP`）、`Kubernetes`（正文中尽量拼写全称，少用 `k8s`）、`Docker`、`Terraform`、`Linux`、`macOS`、`Windows`、`iOS`、`Android`。
+- **云与基础设施**：`Google Cloud`（正式对外文档优先写全称，减少单独使用 `GCP`）、`Kubernetes`（正式对外文档优先写全称，减少使用 `k8s`）、`Docker`、`Terraform`、`Linux`、`macOS`、`Windows`、`iOS`、`Android`。
 - **语言与框架**：`JavaScript`、`TypeScript`、`Node.js`、`Python`、`Go`（或 `Golang`）、`GraphQL`、`gRPC`、`REST`、`WebAssembly`（缩写为 `Wasm`，非 `WASM`）。
 - **数据库与中间件**：`PostgreSQL`、`MySQL`、`MongoDB`、`Redis`、`BigQuery`、`Cloud Spanner`。
 - **网络与安全**：`HTTP`、`HTTPS`、`HTTP/2`、`TCP/IP`、`IPv4`、`IPv6`、`IPsec`（小写 `sec`）、`OAuth 2.0`（带空格和 `.0`，不写 `OAuth2`）、`OpenID Connect`、`TLS`、`SSH`、`JSON`、`YAML`、`TOML`、`UTF-8`、`Base64`、`SHA-1`、`SHA-256`。
